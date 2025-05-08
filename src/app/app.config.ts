@@ -8,12 +8,14 @@ import { routes } from './app.routes';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-      provideAnimationsAsync(),
-      providePrimeNG({
-          theme: {
-              preset: Aura
-          }
-      })
-  ]
-};
+    providers: [
+      provideZoneChangeDetection({ eventCoalescing: true }),
+      provideRouter(routes),
+      provideAnimationsAsync(),  
+      providePrimeNG({           
+        theme: {                 
+          preset: Aura,          
+        },                       
+      }),                        
+    ],
+  };

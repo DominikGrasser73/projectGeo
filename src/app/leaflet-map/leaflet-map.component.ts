@@ -2,6 +2,10 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import * as L from 'leaflet';
 import 'leaflet-easybutton';
 import {ButtonModule} from 'primeng/button';
+import {DialogModule} from 'primeng/dialog';
+import {DatePickerModule} from 'primeng/datepicker';
+import { FormsModule } from '@angular/forms';
+
 
 import states from '../../assets/bundesland2.json';
 import bezirke from '../../assets/bezirke.json';
@@ -12,28 +16,22 @@ import { GeoJsonObject } from 'geojson';
   selector: 'app-leaflet-map',
   templateUrl: './leaflet-map.component.html',
   styleUrls: ['./leaflet-map.component.scss'],
-  imports: [ButtonModule]
+  imports: [ButtonModule, DialogModule,DatePickerModule, FormsModule],
 })
 export class LeafletMapComponent implements OnInit, AfterViewInit {
 
+  
   private map!: L.Map
+  visible: boolean = false;
   markerMode : boolean = false;
   markers: L.Marker[] = [
     L.marker([48.3771, 14.2894]) 
   ];
   districts: string[] = [];
-
-
-/*   summit = L.marker([ 46.8523, -121.7603 ], {
-    icon: L.icon({
-      iconSize: [ 25, 41 ],
-      iconAnchor: [ 13, 41 ],
-      iconUrl: 'leaflet/marker-icon.png',
-      iconRetinaUrl: 'leaflet/marker-icon-2x.png',
-      shadowUrl: 'leaflet/marker-shadow.png'
-    })
-  }); */
-
+  datetime24h: Date = new Date(2023, 10, 1, 12, 0, 0); // Example date and time
+  name : string = 'Test';
+  description : string = 'Test';
+  coords = L.latLng(0, 0);
   constructor() { }
 
   ngOnInit() {
@@ -57,7 +55,9 @@ export class LeafletMapComponent implements OnInit, AfterViewInit {
           }
           layer.on('click', (e) => {
             if (this.markerMode) {
-              this.createMarker(e.latlng);
+              this.coords = e.latlng;
+              this.visible = true;
+              
             }
             else {
               this.map.setView(e.latlng, 10); // Zoom in on the clicked feature            
@@ -144,6 +144,19 @@ export class LeafletMapComponent implements OnInit, AfterViewInit {
         shadowUrl: 'leaflet/marker-shadow.png'
       })
     }).addTo(this.map).bindPopup('New Marker');
+  }
+
+  public createActivity(){
+    const marker = L.marker(this.coords, {
+      icon: L.icon({
+        iconSize: [ 25, 41 ],
+        iconAnchor: [ 13, 41 ],
+        iconUrl: 'leaflet/marker-icon.png',
+        iconRetinaUrl: 'leaflet/marker-icon-2x.png',
+        shadowUrl: 'leaflet/marker-shadow.png'
+      })
+    }).addTo(this.map).bindPopup((this.name + ' ' + this.description + ' ' + this.datetime24h.toLocaleString()));
+    this.visible = false;
   }
 
   changeMarkerMode() {
