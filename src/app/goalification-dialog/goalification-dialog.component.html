@@ -1,0 +1,38 @@
+<p-button (click)="showDialog()" label="Create Goal" />
+<p-toast></p-toast>
+
+<p-dialog header="Create a new Goal" [modal]="true" [(visible)]="visible" [style]="{ width: '30rem', height:'50rem' }">
+    <span class="p-text-secondary mb-8">Please enter the type of goal you want to create  </span>
+    
+    <br />
+    
+    <p-selectbutton [options]="goalTypes" [(ngModel)]="selectedGoalType"  aria-labelledby="basic" />
+    @if (selectedGoalType === 'Activity') {
+      <p-selectbutton [options]="activityOptions" [(ngModel)]="selectedActivityOption"  aria-labelledby="basic" class="w-full md:w-56" />
+    } @else if (selectedGoalType === 'States and Districts') {
+      <p-selectbutton [options]="sadOptions" [(ngModel)]="selectedSadOption"  aria-labelledby="basic" class="w-full md:w-56" />
+      <p-selectbutton [options]="sadSubOptions" [(ngModel)]="selectedSadSubOption"  aria-labelledby="basic" class="w-full md:w-56" />  
+      @if (selectedSadOption === 'States' && selectedSadSubOption === 'Single') {
+        <p-select [options]="statesArray" [(ngModel)]="selectedState"  placeholder="Select a State" class="w-full md:w-56" />
+      }  @else if (selectedSadOption === 'Districts' && selectedSadSubOption === 'Single') {
+        <p-select [options]="districtsArray" [(ngModel)]="selectedDistrict"  placeholder="Select a District" class="w-full md:w-56" />
+      }
+    }
+    @else if (selectedGoalType === 'Social') {
+      <p-selectbutton [options]="socialOptions" [(ngModel)]="selectedSocialOption"  placeholder="Select a Social Option" class="w-full md:w-56" />
+      @if (selectedSocialOption === 'Selected Friend') {
+        <p-select [options]="friendsArray" [(ngModel)]="selectedFriend"  placeholder="Select a Friend" class="w-full md:w-56" />
+      }
+    }
+
+    <span class="p-text-secondary mb-8">Please enter the target number of your goal  </span>
+    <input type="text" pInputText [(ngModel)]="goalTarget" class="w-full mb-4"/>
+    <p-slider [(ngModel)]="goalTarget" class="w-full" />
+    <br />
+    <div class="flex justify-end gap-2">
+            <p-button label="Cancel" severity="secondary" (click)="visible = false" />
+            <p-button label="Save" (click)="createGoal()" />
+    </div>
+
+ </p-dialog>
+ <app-goalification-table [user]="user" [driver]="driver"  [userGoals]="userGoals"></app-goalification-table>

@@ -1,0 +1,18 @@
+<p-table [value]="userGoals" [paginator]="true" [rows]="10" [responsiveLayout]="'scroll'">
+    <ng-template pTemplate="header" >
+        <tr>
+            <th>Type </th>
+            <th>Progress</th>
+            <th>Target</th>
+            <th>StartDate</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-goal>
+        <tr>
+            <td [pTooltip]="goal.subType + ' - ' + goal.subSubType + ' - ' + goal.single" tooltipPosition="top">
+                {{ goal.type }}
+            </td>
+            <td> <p-progressbar [value]=getProgressBarStatus(goal.progress,goal.target)  /> </td>
+            <td>{{ goal.target }}</td>
+            <td>{{ goal.startDate.toLocaleDateString() }}</td>
+    </ng-template>

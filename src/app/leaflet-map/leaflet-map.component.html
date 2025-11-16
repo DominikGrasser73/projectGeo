@@ -1,22 +1,38 @@
 <div id="map" style="height: 600px;width: 100%;">
     <p-dialog header="Enter Activity Information" [modal]="true" [(visible)]="visible" [style]="{ width: '30rem', height:'50rem' }">
-        <span class="p-text-secondary block mb-8">Please enter name, description and time of your activity.</span>
+        <span class="p-text-secondary block mb-8">Please enter name, description and time of your activity.  <br>
+              Area:{{layerName}} <br> Latitude:{{coords.lat}} <br> Longitude:{{coords.lng}}</span>
+        
         <div class="flex items-center gap-2 mb-4">
             <label for="name" class="font-semibold w-24">Name</label>
             <input pInputText id="name" [(ngModel)]="name" class="flex-auto" autocomplete="off" />
         </div>
         <div class="flex items-center gap-2 mb-8">
             <label for="description" class="font-semibold w-24">Description</label>
-            <input pInputText id="description" class="flex-auto" autocomplete="off" />
+            <input pInputText id="description" [(ngModel)]="description" class="flex-auto" autocomplete="off" />
         </div>
         <div class="flex-auto">
             <label for="calendar-24h" class="font-semibold w-24">Time</label>
             <p-datepicker inputId="calendar-24h" [(ngModel)]="datetime24h" [showTime]="true" size="small" />
         </div>
+
         <div class="flex justify-end gap-2">
             <p-button label="Cancel" severity="secondary" (click)="visible = false" />
             <p-button label="Save" (click)="createActivity()" />
         </div>
     </p-dialog>
 </div>
-<button (click)="this.markerMode=!this.markerMode">Marker Mode</button>
+<p-button label="Display States" severity="info" (click)="changeMapState('states')"/>
+<p-button label="Display Districts" severity="info" (click)="changeMapState('districts')"/>
+<p-button label="Display Counties" severity="info" (click)="changeMapState('counties')"/>
+<p-button label="Save Selected Areas" severity="success" (click)="saveSelectedAreas()"/>
+<p-button label="Activity/Routing Mode" severity="success" (click)="changeActivityOrRoutingMode()"/>
+<p-button label ="Visited Locations" severity="success" (click)="visitedLocations()"/>
+
+
+
+
+
+
+
+<button (click)="createDistricts()">Create Districts</button>

@@ -1,0 +1,24 @@
+<p-drawer [(visible)]="visible" header="Drawer">
+    
+                                <a pRipple (click)="displayUserlist()"  class="flex items-center cursor-pointer p-4 rounded-border text-surface-700 dark:text-surface-100 hover:bg-surface-100 dark:hover:bg-surface-700 duration-150 transition-colors p-ripple">
+                                    <i class="pi pi-users mr-2"></i>
+                                    <span class="font-medium" >Other Users</span>
+
+                                </a>
+                                @if (friendsVisible) {
+                                    <p-listbox [options]="friends" [(ngModel)]="selectedFriend" [virtualScroll]="true" pTooltip="Shows other users and the number of connections to that user" optionLabel="name" optionValue="name"   [filter]="true" class="w-full md:w-56" >
+                                    <ng-template let-friend pTemplate="item">
+                                        <div class="flex items-center justify-between w-full">
+                                            <span class="font-semibold">{{friend.name }} <p-badge [value]="friend.count"></p-badge> </span>
+                                           
+                                        </div>
+                                    </ng-template>
+                                    </p-listbox>
+                                    <p-button (click)="addFriend()" icon="pi pi-plus" class="ml-2" pTooltip="Add Friend" />
+                                }
+                                
+
+                                
+                            
+</p-drawer>
+<p-button (click)="visible = true" icon="pi pi-arrow-right" />

@@ -1,0 +1,2295 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-28T18:45:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/30030",
+        "admin_level": "6",
+        "alt_name": "Außerfern",
+        "boundary": "administrative",
+        "name": "Bezirk Reutte",
+        "name:ru": "Ройтте",
+        "ref": "RE",
+        "ref:at:gkz": "708",
+        "region:type": "natural_area",
+        "type": "boundary",
+        "wikidata": "Q854005",
+        "wikipedia": "de:Bezirk Reutte",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5826968,
+          47.3699335
+        ]
+      },
+      "id": "relation/30030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/34676",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Graz-Umgebung",
+        "name:ru": "Грац-Умгебунг",
+        "population": "152944",
+        "population:date": "2018-01-01",
+        "ref": "GU",
+        "ref:at:gkz": "606",
+        "type": "boundary",
+        "wikidata": "Q672475",
+        "wikipedia": "de:Bezirk Graz-Umgebung",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3895675,
+          47.1097865
+        ]
+      },
+      "id": "relation/34676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/34719",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Graz",
+        "name:prefix:at": "Statutarstadt",
+        "name:ru": "Грац",
+        "name:zh": "格拉茨",
+        "name:zh-Hant": "格拉茲",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "ref:at:gkz": "60101",
+        "type": "boundary",
+        "wikidata": "Q13298",
+        "wikipedia": "de:Graz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4419573,
+          47.0731932
+        ]
+      },
+      "id": "relation/34719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/35202",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Deutschlandsberg",
+        "ref": "DL",
+        "ref:at:gkz": "603",
+        "type": "boundary",
+        "wikidata": "Q660219",
+        "wikipedia": "de:Bezirk Deutschlandsberg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2033467,
+          46.8060813
+        ]
+      },
+      "id": "relation/35202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/36182",
+        "admin_level": "6",
+        "administrative_title": "Bezirk",
+        "boundary": "administrative",
+        "name": "Bezirk Leibnitz",
+        "name:ru": "Лайбниц",
+        "ref": "LB",
+        "ref:at:gkz": "610",
+        "type": "boundary",
+        "wikidata": "Q660400",
+        "wikipedia": "de:Bezirk Leibnitz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5326448,
+          46.8162224
+        ]
+      },
+      "id": "relation/36182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/37894",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Murtal",
+        "ref": "MT",
+        "ref:at:gkz": "620",
+        "type": "boundary",
+        "wikidata": "Q526517",
+        "wikipedia": "de:Bezirk Murtal",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6381942,
+          47.2328219
+        ]
+      },
+      "id": "relation/37894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/49964",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Leoben",
+        "name:ru": "Леобен",
+        "ref": "LN",
+        "ref:at:gkz": "611",
+        "type": "boundary",
+        "wikidata": "Q665720",
+        "wikipedia": "de:Bezirk Leoben",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.916745,
+          47.420762
+        ]
+      },
+      "id": "relation/49964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/50587",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Liezen",
+        "name:ru": "Лицен",
+        "official_name": "Liezen",
+        "ref": "LI",
+        "ref:at:gkz": "612",
+        "type": "boundary",
+        "wikidata": "Q255834",
+        "wikipedia": "de:Bezirk Liezen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.351213,
+          47.5072504
+        ]
+      },
+      "id": "relation/50587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/50802",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Murau",
+        "name:ru": "Мурау",
+        "population": "28488",
+        "ref": "MU",
+        "ref:at:gkz": "614",
+        "type": "boundary",
+        "wikidata": "Q388913",
+        "wikipedia": "de:Bezirk Murau",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1867095,
+          47.1193785
+        ]
+      },
+      "id": "relation/50802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/51331",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Voitsberg",
+        "name:ru": "Фойтсберг",
+        "ref": "VO",
+        "ref:at:gkz": "616",
+        "type": "boundary",
+        "wikidata": "Q672537",
+        "wikipedia": "de:Bezirk Voitsberg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.07696,
+          47.0614988
+        ]
+      },
+      "id": "relation/51331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/52123",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Weiz",
+        "name:ru": "Вайц",
+        "ref": "WZ",
+        "ref:at:gkz": "617",
+        "type": "boundary",
+        "wikidata": "Q665571",
+        "wikipedia": "de:Bezirk Weiz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6526984,
+          47.2951733
+        ]
+      },
+      "id": "relation/52123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/63163",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Kirchdorf",
+        "name:cs": "Kostelec nad Kremží",
+        "name:ru": "Кирхдорф-на-Кремсе",
+        "ref": "KI",
+        "ref:at:gkz": "409",
+        "type": "boundary",
+        "wikidata": "Q660512",
+        "wikipedia": "de:Bezirk Kirchdorf an der Krems",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2214623,
+          47.8537681
+        ]
+      },
+      "id": "relation/63163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/63175",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Wels",
+        "name:prefix:at": "Statutarstadt",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "postal_code": "4600",
+        "postal_code_level": "6",
+        "ref": "WE",
+        "ref:at:gkz": "40301",
+        "type": "boundary",
+        "wikidata": "Q178582",
+        "wikipedia": "de:Wels (Stadt)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0271433,
+          48.1685664
+        ]
+      },
+      "id": "relation/63175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/63349",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Gmunden",
+        "name:ru": "Гмунден",
+        "ref": "GM",
+        "ref:at:gkz": "407",
+        "type": "boundary",
+        "wikidata": "Q253221",
+        "wikipedia": "de:Bezirk Gmunden",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7669419,
+          47.7583183
+        ]
+      },
+      "id": "relation/63349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/63619",
+        "admin_level": "6",
+        "alt_name": "Bezirk St. Pölten-Land",
+        "boundary": "administrative",
+        "name": "Bezirk St. Pölten",
+        "name:ro": "Sankt Pölten (teren)",
+        "name:ru": "Санкт-Пёльтен",
+        "ref": "PL",
+        "ref:at:gkz": "319",
+        "type": "boundary",
+        "wikidata": "Q694393",
+        "wikipedia": "de:Bezirk St. Pölten-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7365398,
+          48.1386025
+        ]
+      },
+      "id": "relation/63619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/64917",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Wels-Land",
+        "ref": "WL",
+        "ref:at:gkz": "418",
+        "type": "boundary",
+        "wikidata": "Q660544",
+        "wikipedia": "de:Bezirk Wels-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9624368,
+          48.1290876
+        ]
+      },
+      "id": "relation/64917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/69648",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Klagenfurt-Land",
+        "name:de": "Bezirk Klagenfurt-Land",
+        "name:ru": "Клагенфурт",
+        "name:sl": "Celovec (okraj)",
+        "ref": "KL",
+        "ref:at:gkz": "204",
+        "type": "boundary",
+        "wikidata": "Q660701",
+        "wikipedia": "de:Bezirk Klagenfurt-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2955516,
+          46.5821114
+        ]
+      },
+      "id": "relation/69648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/74231",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Bregenz",
+        "ref": "B",
+        "ref:at:gkz": "802",
+        "type": "boundary",
+        "wikidata": "Q698621",
+        "wikipedia": "de:Bezirk Bregenz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8938683,
+          47.4110951
+        ]
+      },
+      "id": "relation/74231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/74804",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Bludenz",
+        "ref": "BZ",
+        "ref:at:gkz": "801",
+        "type": "boundary",
+        "wikidata": "Q698606",
+        "wikipedia": "de:Bezirk Bludenz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9145464,
+          47.0677833
+        ]
+      },
+      "id": "relation/74804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/75111",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Dornbirn",
+        "ref": "DO",
+        "ref:at:gkz": "803",
+        "type": "boundary",
+        "wikidata": "Q698581",
+        "wikipedia": "de:Bezirk Dornbirn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7464578,
+          47.373628
+        ]
+      },
+      "id": "relation/75111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/75152",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Feldkirch",
+        "ref": "FK",
+        "ref:at:gkz": "804",
+        "type": "boundary",
+        "wikidata": "Q384914",
+        "wikipedia": "de:Bezirk Feldkirch",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6903209,
+          47.2574386
+        ]
+      },
+      "id": "relation/75152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/76826",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Landeck",
+        "name:ru": "Ландекк",
+        "ref": "LA",
+        "ref:at:gkz": "706",
+        "type": "boundary",
+        "wikidata": "Q665605",
+        "wikipedia": "de:Bezirk Landeck",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.459728,
+          47.0367127
+        ]
+      },
+      "id": "relation/76826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/77101",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Imst",
+        "name:ru": "Имст",
+        "ref": "IM",
+        "ref:at:gkz": "702",
+        "type": "boundary",
+        "wikidata": "Q665668",
+        "wikipedia": "de:Bezirk Imst",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8532508,
+          47.0796462
+        ]
+      },
+      "id": "relation/77101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/78251",
+        "admin_level": "6",
+        "alt_name": "Innsbruck Land",
+        "boundary": "administrative",
+        "name": "Bezirk Innsbruck-Land",
+        "name:ru": "Инсбрук-Ланд",
+        "ref": "IL",
+        "ref:at:gkz": "703",
+        "type": "boundary",
+        "wikidata": "Q699582",
+        "wikipedia": "de:Bezirk Innsbruck-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3474305,
+          47.2062036
+        ]
+      },
+      "id": "relation/78251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/78752",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Rust",
+        "name:hr": "Rušta",
+        "name:hu": "Ruszt",
+        "name:prefix:at": "Statutarstadt",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "postal_code": "7071",
+        "ref": "E",
+        "ref:at:gkz": "10201",
+        "type": "boundary",
+        "wikidata": "Q259214",
+        "wikipedia": "de:Rust (Burgenland)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6869084,
+          47.8038291
+        ]
+      },
+      "id": "relation/78752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/78829",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Neusiedl am See",
+        "name:hu": "Nezsideri járás",
+        "name:ru": "Нойзидль-ам-Зе",
+        "ref": "ND",
+        "ref:at:gkz": "107",
+        "short_name": "Bezirk Neusiedl",
+        "type": "boundary",
+        "wikidata": "Q660325",
+        "wikipedia": "de:Bezirk Neusiedl am See",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9281611,
+          47.9000554
+        ]
+      },
+      "id": "relation/78829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/79747",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Eisenstadt",
+        "name:hr": "Željezno",
+        "name:hu": "Kismarton",
+        "name:prefix:at": "Statutarstadt",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "ref": "E",
+        "ref:at:gkz": "10101",
+        "type": "boundary",
+        "wikidata": "Q126321",
+        "wikipedia": "de:Eisenstadt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5346925,
+          47.8387285
+        ]
+      },
+      "id": "relation/79747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/80051",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Schwaz",
+        "name:ru": "Швац",
+        "ref": "SZ",
+        "ref:at:gkz": "709",
+        "type": "boundary",
+        "wikidata": "Q266685",
+        "wikipedia": "de:Bezirk Schwaz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7599232,
+          47.2817154
+        ]
+      },
+      "id": "relation/80051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/85647",
+        "admin_level": "6",
+        "admin_titel": "Bezirk",
+        "boundary": "administrative",
+        "name": "Bezirk Kitzbühel",
+        "ref": "KB",
+        "ref:at:gkz": "704",
+        "type": "boundary",
+        "wikidata": "Q265649",
+        "wikipedia": "de:Bezirk Kitzbühel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3518527,
+          47.4826124
+        ]
+      },
+      "id": "relation/85647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/86256",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Eferding",
+        "ref": "EF",
+        "ref:at:gkz": "405",
+        "type": "boundary",
+        "wikidata": "Q47289",
+        "wikipedia": "de:Bezirk Eferding",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9953375,
+          48.3445487
+        ]
+      },
+      "id": "relation/86256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/86257",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "loc_name": "Urfahr-Umgebung",
+        "name": "Bezirk Urfahr-Umgebung",
+        "ref": "UU",
+        "ref:at:gkz": "416",
+        "type": "boundary",
+        "wikidata": "Q253585",
+        "wikipedia": "de:Bezirk Urfahr-Umgebung",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2529199,
+          48.4254902
+        ]
+      },
+      "id": "relation/86257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/86309",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Linz-Land",
+        "ref": "LL",
+        "ref:at:gkz": "410",
+        "type": "boundary",
+        "wikidata": "Q265632",
+        "wikipedia": "de:Bezirk Linz-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3062448,
+          48.2006233
+        ]
+      },
+      "id": "relation/86309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/86340",
+        "admin_level": "6",
+        "alt_name": "Tennengau",
+        "boundary": "administrative",
+        "name": "Bezirk Hallein",
+        "ref": "HA",
+        "ref:at:gkz": "502",
+        "type": "boundary",
+        "wikidata": "Q254533",
+        "wikipedia": "de:Bezirk Hallein",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2771178,
+          47.6130012
+        ]
+      },
+      "id": "relation/86340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/86381",
+        "admin_level": "6",
+        "alt_name": "Flachgau",
+        "boundary": "administrative",
+        "name": "Bezirk Salzburg-Umgebung",
+        "ref": "SL",
+        "ref:at:gkz": "503",
+        "type": "boundary",
+        "wikidata": "Q255469",
+        "wikipedia": "de:Bezirk Salzburg-Umgebung",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2055222,
+          47.8331778
+        ]
+      },
+      "id": "relation/86381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/86459",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Steyr-Land",
+        "ref": "SE",
+        "ref:at:gkz": "415",
+        "type": "boundary",
+        "wikidata": "Q854074",
+        "wikipedia": "de:Bezirk Steyr-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4609802,
+          47.9070732
+        ]
+      },
+      "id": "relation/86459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/86538",
+        "admin_level": "6",
+        "alt_name:cs": "Solnohrad",
+        "boundary": "administrative",
+        "name": "Salzburg",
+        "name:ar": "زالتسبورغ",
+        "name:cs": "Salcburk",
+        "name:eo": "Salcburgo",
+        "name:it": "Salisburgo",
+        "name:prefix:at": "Statutarstadt",
+        "name:pt": "Salisburgo",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "postal_code": "5020",
+        "ref": "S",
+        "ref:at:gkz": "50101",
+        "type": "boundary",
+        "wikidata": "Q34713",
+        "wikipedia": "de:Salzburg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0565867,
+          47.802802
+        ]
+      },
+      "id": "relation/86538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/86708",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Linz",
+        "name:ar": "لنتس",
+        "name:prefix:at": "Statutarstadt",
+        "name:zh": "林茨",
+        "name:zh-Hant": "林茲",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "ref": "L",
+        "ref:at:gkz": "40101",
+        "type": "boundary",
+        "wikidata": "Q41329",
+        "wikipedia": "de:Linz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3274685,
+          48.2950319
+        ]
+      },
+      "id": "relation/86708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/88553",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Grieskirchen",
+        "ref": "GR",
+        "ref:at:gkz": "408",
+        "type": "boundary",
+        "wikidata": "Q655262",
+        "wikipedia": "de:Bezirk Grieskirchen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7835143,
+          48.2796924
+        ]
+      },
+      "id": "relation/88553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/90143",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Steyr",
+        "name:prefix:at": "Statutarstadt",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "postal_code": "4400",
+        "postal_code_level": "6",
+        "ref": "SR",
+        "ref:at:gkz": "40201",
+        "type": "boundary",
+        "wikidata": "Q260320",
+        "wikipedia": "de:Steyr",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.423075,
+          48.056242
+        ]
+      },
+      "id": "relation/90143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/102302",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Vöcklabruck",
+        "ref": "VB",
+        "ref:at:gkz": "417",
+        "type": "boundary",
+        "wikidata": "Q267479",
+        "wikipedia": "de:Bezirk Vöcklabruck",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5529749,
+          47.9473648
+        ]
+      },
+      "id": "relation/102302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/103095",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Hollabrunn",
+        "ref": "HL",
+        "ref:at:gkz": "310",
+        "type": "boundary",
+        "wikidata": "Q694349",
+        "wikipedia": "de:Bezirk Hollabrunn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0187862,
+          48.6703507
+        ]
+      },
+      "id": "relation/103095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/103816",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Eisenstadt-Umgebung",
+        "name:hu": "Kismartoni járás",
+        "name:ru": "Айзенштадт-Умгебунг",
+        "ref": "EU",
+        "ref:at:gkz": "103",
+        "type": "boundary",
+        "wikidata": "Q261432",
+        "wikipedia": "de:Bezirk Eisenstadt-Umgebung",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.576071,
+          47.8545695
+        ]
+      },
+      "id": "relation/103816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/104072",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Gänserndorf",
+        "ref": "GF",
+        "ref:at:gkz": "308",
+        "type": "boundary",
+        "wikidata": "Q694442",
+        "wikipedia": "de:Bezirk Gänserndorf",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7398506,
+          48.3799725
+        ]
+      },
+      "id": "relation/104072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/104883",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Mistelbach",
+        "ref": "MI",
+        "ref:at:gkz": "316",
+        "type": "boundary",
+        "wikidata": "Q257454",
+        "wikipedia": "de:Bezirk Mistelbach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5638886,
+          48.5643618
+        ]
+      },
+      "id": "relation/104883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/105088",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Baden",
+        "ref": "BN",
+        "ref:at:gkz": "306",
+        "type": "boundary",
+        "wikidata": "Q279874",
+        "wikipedia": "de:Bezirk Baden (Niederösterreich)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2132339,
+          48.0104047
+        ]
+      },
+      "id": "relation/105088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/105348",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk St. Veit an der Glan",
+        "ref": "SV",
+        "ref:at:gkz": "205",
+        "type": "boundary",
+        "wikidata": "Q660255",
+        "wikipedia": "de:Bezirk Sankt Veit an der Glan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3140349,
+          46.881814
+        ]
+      },
+      "id": "relation/105348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/105735",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Wolfsberg",
+        "ref": "WO",
+        "ref:at:gkz": "209",
+        "type": "boundary",
+        "wikidata": "Q665641",
+        "wikipedia": "de:Bezirk Wolfsberg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8402029,
+          46.825497
+        ]
+      },
+      "id": "relation/105735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/105870",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Klagenfurt am Wörthersee",
+        "name:fur": "Clanfurt",
+        "name:it": "Clanforte",
+        "name:ja": "クラーゲンフルト・アム・ヴェルターゼー",
+        "name:prefix:at": "Statutarstadt",
+        "name:sl": "Celovec",
+        "name:zh": "克拉根福",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "ref": "K",
+        "ref:at:gkz": "20101",
+        "type": "boundary",
+        "wikidata": "Q41753",
+        "wikipedia": "de:Klagenfurt am Wörthersee",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3132693,
+          46.6415451
+        ]
+      },
+      "id": "relation/105870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/105949",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Horn",
+        "ref": "HO",
+        "ref:at:gkz": "311",
+        "type": "boundary",
+        "wikidata": "Q143167",
+        "wikipedia": "de:Bezirk Horn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6825545,
+          48.729735
+        ]
+      },
+      "id": "relation/105949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/105958",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Völkermarkt",
+        "name:ru": "Фёлькермаркт",
+        "name:sl": "Velikovec (okraj)",
+        "ref": "VK",
+        "ref:at:gkz": "208",
+        "type": "boundary",
+        "wikidata": "Q660279",
+        "wikipedia": "de:Bezirk Völkermarkt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.692906,
+          46.5991978
+        ]
+      },
+      "id": "relation/105958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/106094",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Villach-Land",
+        "name:ru": "Филлах",
+        "name:sl": "Okraj Beljak-dežela",
+        "ref": "VL",
+        "ref:at:gkz": "207",
+        "type": "boundary",
+        "wikidata": "Q660264",
+        "wikipedia": "de:Bezirk Villach-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7666206,
+          46.6367201
+        ]
+      },
+      "id": "relation/106094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/106097",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Mattersburg",
+        "name:hu": "Nagymartoni járás",
+        "name:ru": "Маттерсбург",
+        "population": "39348",
+        "ref": "MA",
+        "ref:at:gkz": "106",
+        "type": "boundary",
+        "wikidata": "Q748570",
+        "wikipedia": "de:Bezirk Mattersburg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.410395,
+          47.7280607
+        ]
+      },
+      "id": "relation/106097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/106163",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Villach",
+        "name:fur": "Vilac",
+        "name:prefix:at": "Statutarstadt",
+        "name:sl": "Beljak",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "ref": "VI",
+        "ref:at:gkz": "20201",
+        "type": "boundary",
+        "wikidata": "Q483522",
+        "wikipedia": "de:Villach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8364624,
+          46.6134287
+        ]
+      },
+      "id": "relation/106163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/106175",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Feldkirchen",
+        "ref": "FE",
+        "ref:at:gkz": "210",
+        "type": "boundary",
+        "wikidata": "Q665735",
+        "wikipedia": "de:Bezirk Feldkirchen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025213,
+          46.7961643
+        ]
+      },
+      "id": "relation/106175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/106250",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Tulln",
+        "name:ru": "Тульн",
+        "ref": "TU",
+        "ref:at:gkz": "321",
+        "type": "boundary",
+        "wikidata": "Q694428",
+        "wikipedia": "de:Bezirk Tulln",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0378463,
+          48.3478657
+        ]
+      },
+      "id": "relation/106250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/106447",
+        "admin_level": "6",
+        "alt_name": "Bezirk Wiener Neustadt-Land",
+        "boundary": "administrative",
+        "name": "Bezirk Wiener Neustadt",
+        "name:sk": "okres Viedenské Nové Mesto",
+        "ref": "WB",
+        "ref:at:gkz": "323",
+        "type": "boundary",
+        "wikidata": "Q694413",
+        "wikipedia": "de:Bezirk Wiener Neustadt-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.007208,
+          47.6915426
+        ]
+      },
+      "id": "relation/106447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/106740",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Korneuburg",
+        "name:ru": "Корнойбург",
+        "ref": "KO",
+        "ref:at:gkz": "312",
+        "type": "boundary",
+        "wikidata": "Q694372",
+        "wikipedia": "de:Bezirk Korneuburg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2543937,
+          48.4366135
+        ]
+      },
+      "id": "relation/106740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/107941",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Rohrbach",
+        "ref": "RO",
+        "ref:at:gkz": "413",
+        "type": "boundary",
+        "wikidata": "Q252828",
+        "wikipedia": "de:Bezirk Rohrbach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9652793,
+          48.5728734
+        ]
+      },
+      "id": "relation/107941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/109411",
+        "admin_level": "6",
+        "alt_name": "Mittelburgenland",
+        "boundary": "administrative",
+        "name": "Bezirk Oberpullendorf",
+        "name:hu": "Felsőpulyai járás",
+        "name:ru": "Оберпуллендорф",
+        "ref": "OP",
+        "ref:at:gkz": "108",
+        "region:type": "natural_area",
+        "type": "boundary",
+        "wikidata": "Q748891",
+        "wikipedia": "de:Bezirk Oberpullendorf",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4977982,
+          47.5045135
+        ]
+      },
+      "id": "relation/109411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/109543",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Güssing",
+        "name:hu": "Németújvári járás",
+        "name:ru": "Гюссинг",
+        "ref": "GS",
+        "ref:at:gkz": "104",
+        "type": "boundary",
+        "wikidata": "Q660312",
+        "wikipedia": "de:Bezirk Güssing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3042988,
+          47.1137805
+        ]
+      },
+      "id": "relation/109543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/109793",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Jennersdorf",
+        "name:hu": "Gyanafalvi járás",
+        "name:ru": "Еннерсдорф",
+        "ref": "JE",
+        "ref:at:gkz": "105",
+        "type": "boundary",
+        "wikidata": "Q756277",
+        "wikipedia": "de:Bezirk Jennersdorf",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1428975,
+          46.9819144
+        ]
+      },
+      "id": "relation/109793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/110268",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Oberwart",
+        "name:hu": "Felsőőri járás",
+        "name:ru": "Оберварт",
+        "ref": "OW",
+        "ref:at:gkz": "109",
+        "type": "boundary",
+        "wikidata": "Q660230",
+        "wikipedia": "de:Bezirk Oberwart",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2522903,
+          47.2874451
+        ]
+      },
+      "id": "relation/110268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/110451",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Wiener Neustadt",
+        "name:ar": "فينر نويشتات",
+        "name:prefix:at": "Statutarstadt",
+        "name:sk": "Viedenské Nové Mesto",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "official_name": "Wiener Neustadt (Stadt)",
+        "ref": "WN",
+        "ref:at:gkz": "304",
+        "type": "boundary",
+        "wikidata": "Q131612",
+        "wikipedia": "de:Wiener Neustadt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2162011,
+          47.8071266
+        ]
+      },
+      "id": "relation/110451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/110525",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Neunkirchen",
+        "ref": "NK",
+        "ref:at:gkz": "318",
+        "type": "boundary",
+        "wikidata": "Q694386",
+        "wikipedia": "de:Bezirk Neunkirchen",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9098112,
+          47.6642221
+        ]
+      },
+      "id": "relation/110525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/111858",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Mödling",
+        "ref": "MD",
+        "ref:at:gkz": "317",
+        "type": "boundary",
+        "wikidata": "Q254176",
+        "wikipedia": "de:Bezirk Mödling",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2281903,
+          48.0871308
+        ]
+      },
+      "id": "relation/111858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/112050",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Bruck an der Leitha",
+        "ref": "BL",
+        "ref:at:gkz": "307",
+        "type": "boundary",
+        "wikidata": "Q584543",
+        "wikipedia": "de:Bezirk Bruck an der Leitha",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7220933,
+          48.0314433
+        ]
+      },
+      "id": "relation/112050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/112678",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Lilienfeld",
+        "ref": "LF",
+        "ref:at:gkz": "314",
+        "type": "boundary",
+        "wikidata": "Q694463",
+        "wikipedia": "de:Bezirk Lilienfeld",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.555091,
+          47.9177821
+        ]
+      },
+      "id": "relation/112678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/112705",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Scheibbs",
+        "ref": "SB",
+        "ref:at:gkz": "320",
+        "type": "boundary",
+        "wikidata": "Q253068",
+        "wikipedia": "de:Bezirk Scheibbs",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0904471,
+          47.9275117
+        ]
+      },
+      "id": "relation/112705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/114629",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Melk",
+        "population": "76785",
+        "ref": "ME",
+        "ref:at:gkz": "315",
+        "type": "boundary",
+        "wikidata": "Q261942",
+        "wikipedia": "de:Bezirk Melk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2376889,
+          48.1926574
+        ]
+      },
+      "id": "relation/114629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/114684",
+        "admin_level": "6",
+        "alt_name": "Bezirk Krems-Land",
+        "boundary": "administrative",
+        "name": "Bezirk Krems",
+        "ref": "KR",
+        "ref:at:gkz": "313",
+        "type": "boundary",
+        "wikidata": "Q694399",
+        "wikipedia": "de:Bezirk Krems-Land",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5281787,
+          48.4509764
+        ]
+      },
+      "id": "relation/114684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/128099",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Amstetten",
+        "ref": "AM",
+        "ref:at:gkz": "305",
+        "type": "boundary",
+        "wikidata": "Q694449",
+        "wikipedia": "de:Bezirk Amstetten",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7342574,
+          47.9821305
+        ]
+      },
+      "id": "relation/128099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/128117",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Perg",
+        "ref": "PE",
+        "ref:at:gkz": "411",
+        "type": "boundary",
+        "wikidata": "Q660530",
+        "wikipedia": "de:Bezirk Perg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6953276,
+          48.290549
+        ]
+      },
+      "id": "relation/128117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/130944",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "description": "Statutarstadt",
+        "name": "Krems an der Donau",
+        "name:prefix:at": "Statutarstadt",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "ref": "KS",
+        "ref:at:gkz": "301",
+        "short_name": "Krems",
+        "type": "boundary",
+        "wikidata": "Q131266",
+        "wikipedia": "de:Krems an der Donau",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6268448,
+          48.409775
+        ]
+      },
+      "id": "relation/130944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/131937",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Waidhofen an der Ybbs",
+        "name:prefix:at": "Statutarstadt",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "ref": "WY",
+        "ref:at:gkz": "303",
+        "type": "boundary",
+        "wikidata": "Q427385",
+        "wikipedia": "de:Waidhofen an der Ybbs",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7910446,
+          47.9512706
+        ]
+      },
+      "id": "relation/131937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/134351",
+        "admin_level": "6",
+        "alt_name": "Sankt Pölten",
+        "boundary": "administrative",
+        "name": "St. Pölten",
+        "name:prefix:at": "Statutarstadt",
+        "name:ro": "Sankt Pölten (oraș)",
+        "name:ru": "Санкт-Пёльтен",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "ref": "P",
+        "ref:at:gkz": "302",
+        "type": "boundary",
+        "wikidata": "Q82500",
+        "wikipedia": "de:St. Pölten",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6475433,
+          48.1933884
+        ]
+      },
+      "id": "relation/134351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/376675",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Hermagor",
+        "name:ru": "Хермагор",
+        "ref": "HE",
+        "ref:at:gkz": "203",
+        "type": "boundary",
+        "wikidata": "Q613991",
+        "wikipedia": "de:Bezirk Hermagor",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.130615,
+          46.6539553
+        ]
+      },
+      "id": "relation/376675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/376676",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Spittal an der Drau",
+        "ref": "SP",
+        "ref:at:gkz": "206",
+        "type": "boundary",
+        "wikidata": "Q660293",
+        "wikipedia": "de:Bezirk Spittal an der Drau",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2515165,
+          46.8932095
+        ]
+      },
+      "id": "relation/376676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/417294",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Braunau",
+        "ref": "BR",
+        "ref:at:gkz": "404",
+        "type": "boundary",
+        "wikidata": "Q255626",
+        "wikipedia": "de:Bezirk Braunau am Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0545283,
+          48.1327411
+        ]
+      },
+      "id": "relation/417294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/419452",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Schärding",
+        "ref": "SD",
+        "ref:at:gkz": "414",
+        "type": "boundary",
+        "wikidata": "Q47482",
+        "wikipedia": "de:Bezirk Schärding",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6361449,
+          48.418226
+        ]
+      },
+      "id": "relation/419452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/421817",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Ried",
+        "ref": "RI",
+        "ref:at:gkz": "412",
+        "type": "boundary",
+        "wikidata": "Q264704",
+        "wikipedia": "de:Bezirk Ried im Innkreis",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.412024,
+          48.2116826
+        ]
+      },
+      "id": "relation/421817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/422468",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Freistadt",
+        "ref": "FR",
+        "ref:at:gkz": "406",
+        "type": "boundary",
+        "wikidata": "Q257347",
+        "wikipedia": "de:Bezirk Freistadt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6526679,
+          48.4729603
+        ]
+      },
+      "id": "relation/422468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/446158",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Zwettl",
+        "ref": "ZT",
+        "ref:at:gkz": "325",
+        "type": "boundary",
+        "wikidata": "Q694452",
+        "wikipedia": "de:Bezirk Zwettl",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1625289,
+          48.5534832
+        ]
+      },
+      "id": "relation/446158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/446160",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Waidhofen an der Thaya",
+        "name:cs": "okres Bejdov nad Dyjí",
+        "ref": "WT",
+        "ref:at:gkz": "322",
+        "type": "boundary",
+        "wikidata": "Q594032",
+        "wikipedia": "de:Bezirk Waidhofen an der Thaya",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3635039,
+          48.8475473
+        ]
+      },
+      "id": "relation/446160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/446967",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Gmünd",
+        "name:ru": "Гмюнд",
+        "ref": "GD",
+        "ref:at:gkz": "309",
+        "type": "boundary",
+        "wikidata": "Q694421",
+        "wikipedia": "de:Bezirk Gmünd",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.987492,
+          48.77268
+        ]
+      },
+      "id": "relation/446967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/533764",
+        "admin_level": "6",
+        "alt_name": "Lungau",
+        "boundary": "administrative",
+        "name": "Bezirk Tamsweg",
+        "ref": "TA",
+        "ref:at:gkz": "505",
+        "type": "boundary",
+        "wikidata": "Q268090",
+        "wikipedia": "de:Bezirk Tamsweg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6569606,
+          47.120025
+        ]
+      },
+      "id": "relation/533764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/533765",
+        "admin_level": "6",
+        "alt_name": "Pongau",
+        "boundary": "administrative",
+        "name": "Bezirk St. Johann im Pongau",
+        "ref": "JO",
+        "ref:at:gkz": "504",
+        "short_name": "Bezirk St. Johann",
+        "type": "boundary",
+        "wikidata": "Q256828",
+        "wikipedia": "de:Bezirk St. Johann im Pongau",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.304222,
+          47.2845784
+        ]
+      },
+      "id": "relation/533765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/539863",
+        "admin_level": "6",
+        "alt_name": "Pinzgau",
+        "boundary": "administrative",
+        "name": "Bezirk Zell am See",
+        "name:ru": "Целль-ам-Зе",
+        "ref": "ZE",
+        "ref:at:gkz": "506",
+        "type": "boundary",
+        "wikidata": "Q257897",
+        "wikipedia": "de:Bezirk Zell am See",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5761595,
+          47.359147
+        ]
+      },
+      "id": "relation/539863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/539866",
+        "admin_level": "6",
+        "alt_name": "Osttirol",
+        "boundary": "administrative",
+        "name": "Bezirk Lienz",
+        "name:cs": "Lienz",
+        "name:ru": "Лиенц",
+        "old_name:cs": "Východní Tyrolsko",
+        "old_name:sl": "Vzhodna Tirolska",
+        "ref": "LZ",
+        "ref:at:gkz": "707",
+        "region:type": "natural_area",
+        "type": "boundary",
+        "wikidata": "Q251931",
+        "wikipedia": "de:Bezirk Lienz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5435935,
+          46.9046071
+        ]
+      },
+      "id": "relation/539866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/544102",
+        "admin_level": "6",
+        "admin_titel": "Bezirk",
+        "boundary": "administrative",
+        "name": "Bezirk Kufstein",
+        "ref": "KU",
+        "ref:at:gkz": "705",
+        "type": "boundary",
+        "wikidata": "Q255141",
+        "wikipedia": "de:Bezirk Kufstein",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0547327,
+          47.5322216
+        ]
+      },
+      "id": "relation/544102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2661074",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Bruck-Mürzzuschlag",
+        "ref": "BM",
+        "ref:at:gkz": "621",
+        "type": "boundary",
+        "wikidata": "Q853690",
+        "wikipedia": "de:Bezirk Bruck-Mürzzuschlag",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.396916,
+          47.5678265
+        ]
+      },
+      "id": "relation/2661074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2661100",
+        "admin_level": "6",
+        "boundary": "administrative",
+        "name": "Bezirk Hartberg-Fürstenfeld",
+        "ref": "HF",
+        "ref:at:gkz": "622",
+        "start_date": "2013-01-01",
+        "type": "boundary",
+        "wikidata": "Q853765",
+        "wikipedia": "de:Bezirk Hartberg-Fürstenfeld",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9410678,
+          47.2478743
+        ]
+      },
+      "id": "relation/2661100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/2661101",
+        "admin_level": "6",
+        "administrative_title": "Bezirk",
+        "boundary": "administrative",
+        "name": "Bezirk Südoststeiermark",
+        "ref": "SO",
+        "ref:at:gkz": "623",
+        "type": "boundary",
+        "wikidata": "Q854043",
+        "wikipedia": "de:Bezirk Südoststeiermark",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8474548,
+          46.8596166
+        ]
+      },
+      "id": "relation/2661101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4835169",
+        "admin_level": "6",
+        "alt_name": "Statutarstadt Innsbruck",
+        "alt_name:cs": "Inšpruk",
+        "boundary": "administrative",
+        "name": "Innsbruck",
+        "name:cs": "Innsbruck",
+        "name:lld": "Dispruch",
+        "name:prefix:at": "Statutarstadt",
+        "name:ru": "Инсбрук",
+        "note": "\"Statutarstadt\" equals both admin_levels 6 and 8",
+        "official_name": "Stadt Innsbruck",
+        "ref": "I",
+        "ref:at:gkz": "70101",
+        "type": "boundary",
+        "wikidata": "Q1735",
+        "wikipedia": "de:Innsbruck",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3787995,
+          47.2854494
+        ]
+      },
+      "id": "relation/4835169"
+    }
+  ]
+}

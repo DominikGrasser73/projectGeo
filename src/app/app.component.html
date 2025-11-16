@@ -1,3 +1,21 @@
-<div class="map-container">
-<app-leaflet-map></app-leaflet-map>
+<div class="flex flex-row">
+    <app-sidebar [user]="user" [driver]="driver"></app-sidebar>
+   
 </div>
+
+
+@if(state.state === 'login'){
+<div  class="app-login">
+<app-login  [driver]="driver" (loginEvent)="loginChange($event)" (userEvent)="userChange($event)"></app-login>
+</div>
+
+} @else if (state.state === 'eliciting' || state.state === 'activity') {
+<div  class="map-container">
+<app-leaflet-map [user]="user" [driver]="driver" [state]="state"></app-leaflet-map>
+</div>
+<app-goalification-dialog [user]="user" [driver]="driver"  />
+
+
+}
+
+<app-neo4j [driver]="driver"></app-neo4j>
