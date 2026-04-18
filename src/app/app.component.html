@@ -6,7 +6,7 @@
 
 @if(state.state === 'login'){
 <div  class="app-login">
-<app-login  [driver]="driver" (loginEvent)="loginChange($event)" (userEvent)="userChange($event)"></app-login>
+<app-login (loginEvent)="loginChange($event)" (userEvent)="userChange($event)"></app-login>
 </div>
 
 } @else if (state.state === 'eliciting' || state.state === 'activity') {

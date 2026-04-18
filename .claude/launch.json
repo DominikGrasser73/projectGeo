@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Angular (ng serve)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "port": 4200
+    },
+    {
+      "name": "Express Backend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start:backend"],
+      "port": 3000
+    }
+  ]
+}

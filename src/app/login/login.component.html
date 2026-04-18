@@ -1,16 +1,80 @@
+<p-dialog
+  [header]="mode === 'login' ? 'Login' : (step === 1 ? 'Create Account' : 'Your home address')"
+  [modal]="true"
+  [(visible)]="visible"
+  [style]="{ width: step === 2 ? '40rem' : '26rem' }"
+  [closable]="false">
 
-<p-dialog header="Login" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }">
-    <span class="p-text-secondary block mb-8">Please Login or create a new Account</span>
+  <!-- Error message -->
+  <p *ngIf="errorMessage" class="text-red-500 mb-4 text-sm">{{ errorMessage }}</p>
+
+  <!-- ── Step 1: Credentials ── -->
+  <ng-container *ngIf="step === 1">
     <div class="flex items-center gap-4 mb-4">
-        <label for="username" class="font-semibold w-24">Username</label>
-        <input pInputText id="username" [(ngModel)]="name" class="flex-auto" autocomplete="off" />
+      <label class="font-semibold w-24">Username</label>
+      <input pInputText [(ngModel)]="username" class="flex-auto" autocomplete="off" />
     </div>
-    <div class="flex items-center gap-4 mb-8">
-        <label for="password" class="font-semibold w-24">Password</label>
-         <p-password [(ngModel)]="password" [feedback]="false" />
+    <div class="flex items-center gap-4 mb-6">
+      <label class="font-semibold w-24">Password</label>
+      <p-password [(ngModel)]="password" [feedback]="false" />
     </div>
+
     <div class="flex justify-end gap-2">
-        <p-button label="Register" severity="secondary" (click)=handleRegister() />
-        <p-button label="Login" (click)= handleLogin() />
+      <p-button
+        *ngIf="mode === 'login'"
+        label="Register"
+        severity="secondary"
+        (click)="switchMode('register')" />
+      <p-button
+        *ngIf="mode === 'register'"
+        label="Back to login"
+        severity="secondary"
+        (click)="switchMode('login')" />
+
+      <p-button
+        *ngIf="mode === 'login'"
+        label="Login"
+        (click)="handleLogin()" />
+      <p-button
+        *ngIf="mode === 'register'"
+        label="Register"
+        (click)="goToLocationStep()" />
     </div>
+  </ng-container>
+
+  <!-- ── Step 2: Address search ── -->
+  <ng-container *ngIf="step === 2">
+    <p class="mb-3 text-sm text-gray-500">
+      Search for your home address to help find routes near you.
+    </p>
+
+    <div class="mb-4">
+      <p-autocomplete
+        [(ngModel)]="addressQuery"
+        [suggestions]="addressSuggestions"
+        (completeMethod)="onAddressSearch($event)"
+        (onSelect)="onAddressSelect($event.value)"
+        field="label"
+        [minLength]="2"
+        placeholder="e.g. Steingrubenweg 4, Gumpoldskirchen"
+        styleClass="w-full"
+        [style]="{ width: '100%' }" />
+    </div>
+
+    <!-- Map preview — shown always, marker appears on selection -->
+    <div id="address-preview-map" style="height: 260px; width: 100%; border-radius: 6px;"></div>
+
+    <p *ngIf="selectedAddress" class="mt-2 text-sm text-green-600">
+      ✓ {{ selectedAddress.label }}
+    </p>
+
+    <div class="flex justify-end gap-2 mt-4">
+      <p-button label="Back" severity="secondary" (click)="step = 1" />
+      <p-button
+        label="Create Account"
+        [disabled]="!selectedAddress"
+        (click)="handleRegister()" />
+    </div>
+  </ng-container>
+
 </p-dialog>
