@@ -48,16 +48,29 @@
       Search for your home address to help find routes near you.
     </p>
 
-    <div class="mb-4">
+    <!-- 2a: Street search -->
+    <div class="mb-3">
+      <label class="block text-sm font-semibold mb-1">Street</label>
       <p-autocomplete
-        [(ngModel)]="addressQuery"
-        [suggestions]="addressSuggestions"
-        (completeMethod)="onAddressSearch($event)"
-        (onSelect)="onAddressSelect($event.value)"
+        [(ngModel)]="streetQuery"
+        [suggestions]="streetSuggestions"
+        (completeMethod)="onStreetSearch($event)"
+        (onSelect)="onStreetSelect($event.value)"
         field="label"
         [minLength]="2"
-        placeholder="e.g. Steingrubenweg 4, Gumpoldskirchen"
-        styleClass="w-full"
+        placeholder="e.g. Steingrubenweg, Gumpoldskirchen"
+        [style]="{ width: '100%' }" />
+    </div>
+
+    <!-- 2b: Number picker — only shown after a street is selected -->
+    <div class="mb-4" *ngIf="selectedStreet">
+      <label class="block text-sm font-semibold mb-1">House number</label>
+      <p-select
+        [(ngModel)]="selectedAddress"
+        [options]="numberOptions"
+        optionLabel="label"
+        placeholder="Select number"
+        (onChange)="onNumberSelect($event.value)"
         [style]="{ width: '100%' }" />
     </div>
 
@@ -65,7 +78,7 @@
     <div id="address-preview-map" style="height: 260px; width: 100%; border-radius: 6px;"></div>
 
     <p *ngIf="selectedAddress" class="mt-2 text-sm text-green-600">
-      ✓ {{ selectedAddress.label }}
+      ✓ {{ selectedAddress.id ? selectedAddress.label : 'Custom location: ' + selectedAddress.label }}
     </p>
 
     <div class="flex justify-end gap-2 mt-4">
