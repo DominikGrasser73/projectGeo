@@ -71,6 +71,7 @@ export class LoginComponent implements OnDestroy {
   // Map preview
   private previewMap: L.Map | null = null;
   private previewMarker: L.Marker | null = null;
+  nearestInfo: { label: string; distanceMeters: number } | null = null;
 
   constructor(private http: HttpClient) {}
 
@@ -87,6 +88,7 @@ export class LoginComponent implements OnDestroy {
     this.selectedStreet = null;
     this.streetQuery = '';
     this.numberOptions = [];
+    this.nearestInfo = null;
   }
 
   handleLogin() {
@@ -139,7 +141,16 @@ export class LoginComponent implements OnDestroy {
     if (!this.previewMap) return;
     const latlng = L.latLng(address.lat, address.lng);
     this.placeMarker(latlng, address);
-    this.previewMap.setView(latlng, 15);
+    this.previewMap.panTo(latlng);
+  }
+
+  private fetchNearestInfo(latlng: L.LatLng) {
+    this.http.get<{ label: string; distanceMeters: number }>(
+      `${API}/addresses/nearest?lat=${latlng.lat}&lng=${latlng.lng}`
+    ).subscribe({
+      next: info => this.nearestInfo = info,
+      error: ()  => this.nearestInfo = null
+    });
   }
 
   private houseIcon(): L.DivIcon {
@@ -181,6 +192,7 @@ export class LoginComponent implements OnDestroy {
 
     this.previewMap.on('click', (e: L.LeafletMouseEvent) => {
       this.placeMarker(e.latlng, null);
+      this.fetchNearestInfo(e.latlng);
     });
   }
 
@@ -202,6 +214,7 @@ export class LoginComponent implements OnDestroy {
           id: '',
           label: `${pos.lat.toFixed(5)}, ${pos.lng.toFixed(5)}`
         };
+        this.fetchNearestInfo(pos);
       });
     }
 

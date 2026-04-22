@@ -77,9 +77,20 @@
     <!-- Map preview — shown always, marker appears on selection -->
     <div id="address-preview-map" style="height: 260px; width: 100%; border-radius: 6px;"></div>
 
-    <p *ngIf="selectedAddress" class="mt-2 text-sm text-green-600">
-      ✓ {{ selectedAddress.id ? selectedAddress.label : 'Custom location: ' + selectedAddress.label }}
+    <!-- Confirmed address from search -->
+    <p *ngIf="selectedAddress?.id" class="mt-2 text-sm text-green-600">
+      ✓ {{ selectedAddress!.label }}
     </p>
+
+    <!-- Custom map click — show coordinates + nearest street -->
+    <ng-container *ngIf="selectedAddress && !selectedAddress.id">
+      <p class="mt-2 text-sm text-green-600">
+        ✓ {{ selectedAddress.lat | number:'1.5-5' }}, {{ selectedAddress.lng | number:'1.5-5' }}
+      </p>
+      <p *ngIf="nearestInfo" class="text-xs text-gray-500">
+        Nearest address: {{ nearestInfo.label }} ({{ nearestInfo.distanceMeters }}m away)
+      </p>
+    </ng-container>
 
     <div class="flex justify-end gap-2 mt-4">
       <p-button label="Back" severity="secondary" (click)="step = 1" />
